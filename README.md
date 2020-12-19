@@ -1,4 +1,4 @@
-![JS30](javascript30.)
+![JS30](javascript30.png)
 
 # JavaScript30
 
