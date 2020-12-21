@@ -1,4 +1,4 @@
-![JS30](javascript30.PNG)
+![JS30](javascript30.png)
 
 # JavaScript30
 
@@ -23,6 +23,7 @@ https://github.com/wesbos/JavaScript30
   - `transform` , `transition`  등 CSS속성 사용법
   - `transitionend` 이벤트 특징
 
+
 <br>
 
 ## 2. JS and CSS Clock
@@ -33,4 +34,4 @@ https://github.com/wesbos/JavaScript30
 - 배운점
   - `Date` 객체
   - `transform`, `transition` 등 CSS속성 및 사용법
-  - `setInterval` : JS 함수 사용
+- `setInterval` : JS 함수 사용
