@@ -10,11 +10,27 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+<br>
+
 ## 1. JavaScript Drum Kit 
 
-- 완료 : 2020 12 19
+- 2020 12 19
+
+- 학습 : 키보드 눌렀을 때(`keydown`) 드럼 소리가 나오는 이벤트 만들기!	
 
 - 배운점
   - `태그[속성=" "]` 활용방법
   - `transform` , `transition`  등 CSS속성 사용법
   - `transitionend` 이벤트 특징
+
+<br>
+
+## 2. JS and CSS Clock
+
+- 2020 12 21
+
+- 학습 : 시계만들기!
+- 배운점
+  - `Date` 객체
+  - `transform`, `transition` 등 CSS속성 및 사용법
+  - `setInterval` : JS 함수 사용
