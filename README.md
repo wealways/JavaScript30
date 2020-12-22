@@ -35,3 +35,15 @@ https://github.com/wesbos/JavaScript30
   - `Date` 객체
   - `transform`, `transition` 등 CSS속성 및 사용법
 - `setInterval` : JS 함수 사용
+
+<br>
+
+## 3. CSS Variables
+
+- 2020 12 22
+- 학습 : CSS의 변수를 활용해서 css 업데이트하기
+- 배운점
+  - `:root { -- variable}` 
+  - `dataset` 활용
+  - `||` & `setProperty()` 
+  - `change`, `mousemove` 이벤트
