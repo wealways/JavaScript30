@@ -47,3 +47,20 @@ https://github.com/wesbos/JavaScript30
   - `dataset` 활용
   - `||` & `setProperty()` 
   - `change`, `mousemove` 이벤트
+
+<br>
+
+## 4. Array Cardio
+
+- 2020 12 24
+
+- 학습 : JS에서 Array 관련 메서드!
+
+- 배운점
+
+  - `.filter()`
+  - `.map()`
+  - `sort()`
+  - `.reduce()`
+
+  
