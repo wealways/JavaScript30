@@ -63,4 +63,15 @@ https://github.com/wesbos/JavaScript30
   - `sort()`
   - `.reduce()`
 
-  
+
+<br>
+
+## 5. Flex Panel Gallery
+
+- 2020 12 28
+- 학습 : flex 화면 애니메이션!
+- 배운점
+  - `flex` 균등하게 분배하기
+  - `transform: translate`
+  - `transitionend` 이벤트 복습
+
