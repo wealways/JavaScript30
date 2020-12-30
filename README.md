@@ -1,4 +1,4 @@
-![JS30](javascript30.png)
+![JS30](image/javascript30.png)
 
 # JavaScript30
 
@@ -87,5 +87,5 @@ https://github.com/wesbos/JavaScript30
 - 배운점
   - fetch().then
   - 정규표현식사용하여 filter
-  - `...` 기능
+  - `...` 기능 : 비구조화 할당 문법
   - 숫자 세자리마다 컴마(,) 찍기
