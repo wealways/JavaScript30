@@ -16,51 +16,7 @@
   </form>
 <script>
 const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
-const cities = []
 
-// 1 데이터 가져오기
-fetch(endpoint)
-  .then(blob => blob.json())
-  .then(data => cities.push(...data));
-
-// 2 filter 함수 만들기
-function findMatches(wordToMatch,cities) {
-  return cities.filter(city => {
-    // 2-1 정규 표현식으로 데이터 필터링하기
-    const regex = new RegExp(wordToMatch,'gi');
-    return city.city.match(regex) || city.state.match(regex)
-  })
-}
-
-// 3 데이터 받아오기
-const searchInput = document.querySelector('.search');
-const suggestions = document.querySelector('.suggestions');
-
-// 3-1 데이터 받아올 수 있도록 이벤트리스너 만들기
-searchInput.addEventListener('change',displayMatches)
-searchInput.addEventListener('keyup',displayMatches)
-
-function numberWithCommas(x) {
-  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-}
-
-// 3-2 화면에 보여주기!
-function displayMatches() {
-  const matchArray = findMatches(this.value,cities);
-  // 3-3 화면에 보여주기 위해 html 태그 만들기
-  const html = matchArray.map(place => {
-    const regex = new RegExp(this.value, 'gi');
-    const cityName = place.city.replace(regex,`<span class="hl">${this.value}</span>`)
-    const stateName = place.state.replace(regex,`<span class="hl">${this.value}</span>`)
-    return `
-    <li>
-      <span class="name">${cityName} ${stateName}</span>  
-      <span class="population">${numberWithCommas(place.population)}</span>  
-    </li>
-    `;
-  }).join('') // 조인써서 하나의 스트링으로 만들어줘야지...
-  suggestions.innerHTML = html;
-}
 </script>
 </body>
 </html>

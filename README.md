@@ -89,3 +89,15 @@ https://github.com/wesbos/JavaScript30
   - 정규표현식사용하여 filter
   - `...` 기능 : 비구조화 할당 문법
   - 숫자 세자리마다 컴마(,) 찍기
+
+<br>
+
+## 7. Array Cardio 2
+
+- 2021 01 02
+- 학습 : 배열 처리 메서드
+- 배운점
+  - `array.prototype.some()` , `array.prototype.every()`
+  - `array.prototype.find()`, `array.prototype.findIndex()`
+  - 배열 삭제하는 법
+
