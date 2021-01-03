@@ -101,3 +101,16 @@ https://github.com/wesbos/JavaScript30
   - `array.prototype.find()`, `array.prototype.findIndex()`
   - 배열 삭제하는 법
 
+<br>
+
+## 8. Fun with HTML5 Canvas
+
+- 2021 01 03
+- 학습 : 캔버스 활용법
+
+![](image/08.gif)
+
+- 배운점
+  - `canvas` 활용법
+  - `mousedown`, `mousemove`, `mouseup`, `mouseout` 이벤트 종류 확인
+
