@@ -1,0 +1,41 @@
+body{
+  background-color: darkslateblue;
+}
+header{
+  display:flex;
+}
+header{
+  margin:0 30%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  background-color: palegoldenrod;
+}
+.zzal {
+  display:flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  color: darkslateblue;
+}
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslateblue;
+  margin: 0 30%;
+}
+label {
+  color:palegoldenrod;
+  font-size: 1.7rem;
+}
+canvas {
+  background-color: white;
+  border: 5px solid palegoldenrod;
+  margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+

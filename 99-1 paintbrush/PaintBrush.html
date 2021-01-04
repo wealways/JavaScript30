@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="paint">
+    <header>
+      <div class="zzal" onClick="window.location.reload()">
+        <img src="king.gif" alt="">
+      </div>
+      <h1>Show Me The Picture</h1>
+      <div class="controls">
+      
+        <label for="size">Size:  </label>
+        <input id="size" type="range" name="size" min="0" max="100" value="10" data-sizing="px">
+    
+        <label for="base">Color:  </label>
+        <input id="base" type="color" name="base" value="#BADA55">
+      </div>
+        
+     
+      
+    </header>
+    <canvas height="800"></canvas>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
+  <script >
+    
+    const canvas = document.querySelector('canvas')
+    const ctx = canvas.getContext('2d');
+
+    
+    // 그림그리기
+    // ctx.strokeStyle = '#BADA55';
+    // console.log(ctx.strokeStyle)
+    // ctx.lineJoin = 'round';
+    // ctx.lineCap = 'round';
+    // ctx.lineWidth = 10;
+
+    let isDrawing = false;
+    let lastX = 0;
+    let lastY = 0;
+    let hue_size = 10;
+    let hue_base = '#BADA55';
+
+    // 사이즈 색 조정
+    const inputs = document.querySelectorAll('.controls input')
+
+    function handleUpdate() {
+      if(this.name==='base') {
+        hue_base = this.value
+      }else if(this.name==='size') {
+        hue_size = this.value
+      }
+    }
+
+    // change mousemove 이벤트에 대한 설명
+    inputs.forEach(input => input.addEventListener('change',handleUpdate))
+
+    function draw(e) {
+      
+
+      if(!isDrawing) return ;
+      // console.log(e)
+      ctx.strokeStyle = hue_base;
+      ctx.lineWidth = hue_size;
+      ctx.lineJoin = 'round';
+      ctx.lineCap = 'round';
+      ctx.beginPath();
+      ctx.moveTo(lastX,lastY);
+      ctx.lineTo(e.offsetX,e.offsetY)
+      ctx.stroke();
+      [lastX,lastY] = [e.offsetX,e.offsetY];
+    }
+
+    canvas.addEventListener('mousedown', (e) => {
+      isDrawing= true;
+      [lastX,lastY] = [e.offsetX,e.offsetY];
+    });
+    canvas.addEventListener('mousemove',draw)
+    canvas.addEventListener('mouseup', () => isDrawing= false);
+    canvas.addEventListener('mouseout', () => isDrawing= false);
+    
+    
+    
+    //반응형
+    canvas.width = window.innerWidth * 0.6;
+    function changeSize() {
+      canvas.width = window.innerWidth * 0.6
+      console.log('hi')
+    }
+
+    window.addEventListener('resize',changeSize);
+
+    // 짤 랜덤
+    const zzal = document.querySelector('.zzal > img');
+    zzal.src = _.sampleSize(['king.gif','achoo.gif','miran.gif'],1)
+
+  </script>
+</body>
+</html>

@@ -114,3 +114,18 @@ https://github.com/wesbos/JavaScript30
   - `canvas` 활용법
   - `mousedown`, `mousemove`, `mouseup`, `mouseout` 이벤트 종류 확인
 
+<br>
+
+## 99-1 PaintBruch
+
+- 2021 01 04
+- 학습 : 3강 + 8강 배운거 토대로 나만의 그림판 만들어보기
+
+![](image/99-1.gif)
+
+- 복습
+  - `canvas` 
+  - html에서 Input 받아와서 처리하기
+- 새로 활용한거
+  - lodash 라이브러리
+  - `resize`, `onclick` 이벤트 종류 확인
