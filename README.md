@@ -12,6 +12,21 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 9. Dev Tools Domination
+
+- 2021 01 05
+- 학습 : 브라우저 내의 dev tools를 배워보자
+
+![](image/9.PNG)
+
+- 배운점
+  - 알림? `warn`, `error`, `info`, `assert`
+  - `group` : 그룹만들기
+  - `count`: 같은 데이터 개수 세기
+  - `time` : 시간 확인하기
+
+<br>
+
 ## 99-1 PaintBruch
 
 - 2021 01 04
