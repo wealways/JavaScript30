@@ -12,6 +12,20 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 10.  Hold Shift and Check Checkboxes
+
+- 2021 01 06
+- 학습 : TodoList의 기본이 되는 체크박스 기능 + 변수 활용법
+
+![](image/10.gif)
+
+- 배운점
+  - `e.shiftKey`
+  - 체크박스 기능
+  - `checkbox.checked = true`
+
+<br>
+
 ## 9. Dev Tools Domination
 
 - 2021 01 05
@@ -20,6 +34,7 @@ https://github.com/wesbos/JavaScript30
 ![](image/9.PNG)
 
 - 배운점
+  - 콘솔 내에서 css 먹이기
   - 알림? `warn`, `error`, `info`, `assert`
   - `group` : 그룹만들기
   - `count`: 같은 데이터 개수 세기

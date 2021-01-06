@@ -7,6 +7,20 @@
 
 ## 배운점
 
+### 콘솔 내에서 CSS 먹이기
+
+```javascript
+console.log('%c I am some great text', 'font-size:50px; background:red; text-shadow: 10px 10px 0 blue')
+```
+
+![image-20210105212318581](C:\Users\USER\AppData\Roaming\Typora\typora-user-images\image-20210105212318581.png)
+
+ㅋㅋㅋ쿠팡좀 보세요. console 창에 
+
+![쿠팡ㅋㅋ](../image/9-0.PNG)
+
+이런 재밌는 이스터에그를 숨겨놨어요ㅋㅋㅋ 야무지다 진짜로ㅋㅋ
+
 ### 알림? `warn`, `error`, `info`, `assert`
 
 ```javascript
