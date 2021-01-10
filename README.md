@@ -12,6 +12,18 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 11. Custom Video Player
+
+- 2021 01 10
+- 학습 : 커스텀 비디오 플레이어를 만들어 봐요!
+
+![](image/11.gif)
+
+- 배운점
+  - video 태그 컨트롤 하는 법
+
+<br>
+
 ## 10.  Hold Shift and Check Checkboxes
 
 - 2021 01 06
