@@ -12,6 +12,15 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 12. Key Sequence Detection
+
+- 2021 01 11
+- 학습: key sequence를 추적하는 법을 배워봐요!
+- 배운점
+  - splice()
+
+<br>
+
 ## 11. Custom Video Player
 
 - 2021 01 10
