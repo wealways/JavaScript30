@@ -12,6 +12,22 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 13. Slide in on Scroll
+
+- 2021 01 12
+- 학습: 스크롤 내리는 걸 감지는 마법!
+
+![13](image/13.gif)
+
+- 배운점
+  - debounce 함수!!
+  - 스크롤 내리는 거 감지하기!
+    - window.scrollY vs window.innerHeight
+    - image.offsetTop
+  - css -> box-sizing:inherit
+
+<br>
+
 ## 12. Key Sequence Detection
 
 - 2021 01 11
