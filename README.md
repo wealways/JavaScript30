@@ -12,6 +12,20 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 14. JavaScript References VS Copying
+
+- 2021 01 13
+- 학습 : 자바스크립트에서 참조와 복사의 차이를 알아봅시다
+
+![14](image/14.png)
+
+- 배운점
+  - 참조와 복사의 차이
+  - 배열 또는 객체를 깊은복사를 하고 싶다면...?
+    - [...array], {...object} -> JSON.parse(JSON.stringify(object))
+
+<br>
+
 ## 13. Slide in on Scroll
 
 - 2021 01 12
