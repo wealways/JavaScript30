@@ -12,6 +12,19 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 17 . Sort Without Articles
+
+- 2021 01 15
+- 학습 : 조사없애고 정렬하기
+
+![17](image/17.png)
+
+- 배운점
+  - 정규 표현식 사용하는 방법!
+  - 바닐라자바스크립트로 정렬하는거 복습!
+
+<br>
+
 ## 16. Mouse Move Shadow
 
 - 2021 01 14
