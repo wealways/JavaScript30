@@ -43,11 +43,15 @@
     // const height = hero.offsetHeight;
     const { offsetWidth:width, offsetHeight:height} = hero;
     let {offsetX:x,offsetY:y} = e;
-
+    
     // offset이라는 게 어떤 태그 안에서의 위치를 나타내나봐!!
     // 전체 태그와 woah 위치에서보면 이상할걸?
+    // console.log(width,height);
     // console.log(x,y);
     
+    // 여기서 this는 hero지!
+    // e는 event니까 여기서 이벤트는 뭐야? 마우스 움직이는 거잖아!!
+    // console.log(this,e)
     // console.log(this,e.target)
     // console.log(e.target.offsetLeft)
     if(this!==e.target){

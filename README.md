@@ -12,6 +12,24 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 16. Mouse Move Shadow
+
+- 2021 01 14
+- 학습 : 브라우저 내의 마우스 위치를 파악해서 shadow를 해봅시다
+
+![16](image/16.gif)
+
+- 배운점
+
+  - offsetWidth, offsetHeight
+  - offsetX,offsetY
+  - 변수 할당하는 법
+    - const {offsetWidth:width, offsetHeight:height} = hero;
+
+  
+
+<br>
+
 ## 14. JavaScript References VS Copying
 
 - 2021 01 13
