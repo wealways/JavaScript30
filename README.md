@@ -12,6 +12,19 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 18. Adding Up times with Reduce
+
+- 2021 01 16
+- 학습: 전체 비디오 시간을 합산하여, 시분초로 표시 !
+
+- 배운점
+  - 다큐먼트에서 찍먹해오는 건 nodelist입니다. 그래서 `map` 메서드를 사용할 수 없어요/
+  - `parseFloat(str)` : 스트링 숫자를 진짜 숫자로 바꿔줘요.
+  - `.reduce` : reduce는 줄이다는 말이죠. 배열의 값들을 하나의 값으로 만들어요 (줄여요)
+  - `Math.floor()` : 버림
+
+<br>
+
 ## 17 . Sort Without Articles
 
 - 2021 01 15
