@@ -56,6 +56,21 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 15. LocalStorage
+
+- 2021 01 17
+- 학습 : 투두리스트 만들기 + localstorage 사용하기
+
+![15](image/15.gif)
+
+- 배운점
+  - JSON.parse , JSON.stringify
+  - localStorage 저장하기
+  - e.preventDefault
+  - formObject.reset()
+
+<br>
+
 ## 14. JavaScript References VS Copying
 
 - 2021 01 13
