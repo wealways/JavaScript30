@@ -42,12 +42,3 @@ recognition.start();
 ```javascript
 recognition.addEventListener('end', recognition.start);
 ```
-
-
-
-
-
-- 
-- 
-  - window.SpeechRecognition 객체 사용하기
-  - 
