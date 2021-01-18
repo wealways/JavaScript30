@@ -12,6 +12,19 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 20. Speech Detection
+
+- 2021 01 18
+- 학습 : speech detection 사용하기
+
+![20](image/20.gif)
+
+- 배운점
+  - window.SpeechRecognition 객체 사용하기
+  - 
+
+<br>
+
 ## 18. Adding Up times with Reduce
 
 - 2021 01 16
