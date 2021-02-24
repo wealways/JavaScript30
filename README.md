@@ -21,7 +21,18 @@ https://github.com/wesbos/JavaScript30
 
 - 배운점
   - window.SpeechRecognition 객체 사용하기
-  - 
+
+<br>
+
+## 19. Webcam Fun
+
+- 2021 02 25
+- 웹캠 활용하기
+
+![19](image/19.gif)
+
+- 웹캠 사용하기
+- 움짤 No dab;;
 
 <br>
 

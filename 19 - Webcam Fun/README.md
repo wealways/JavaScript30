@@ -3,7 +3,7 @@
 - 2021 02 25
 - 웹캠 활용하기
 
-![19](C:\Users\multicampus\Desktop\SJ\JavaScript30\image\19.gif)
+![19](../image/19.gif)
 
 gif 봐도봐도 역겹쓰ㅎㅎ; 근데 저는 이런게 좋아요ㅎㅎ;ㅎ
 
