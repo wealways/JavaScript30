@@ -12,6 +12,20 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 21. Speech Detection
+
+- 2021 02 25
+- 자바스크립트 geolocation 활용하기
+
+![](image/21.png)
+
+- 배운점
+  - `navigator.geolocation` 사용법
+
+
+
+<br>
+
 ## 20. Speech Detection
 
 - 2021 01 18
