@@ -12,6 +12,20 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 22. Follow Along Link Highlighter
+
+- 2021 02 26
+- 특정부분으로 부드럽게 hover 이벤트 만들기
+
+![](image/22.gif)
+
+- 배운점
+  - `getBoundingClientRect()` 메서드 !!
+  - `window.scrollY`스크롤 얼마나 내렸는 지 확인하는 거 필수 !!
+  - css 기능 : `z-index`, `transition` 
+
+<br>
+
 ## 21. Speech Detection
 
 - 2021 02 25
