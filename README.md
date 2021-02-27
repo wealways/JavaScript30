@@ -12,6 +12,20 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 23. Speech Synthesis
+
+- 2021 02 27
+- 자바스크립트의 TTS 기능 활용하기!
+
+![tts](image/23.png)
+
+- 배운점
+  - `SpeechSynthesisUtterance` api 활용법
+  - stop! speak! 설정하는 flag를 함수로 만들었다!!
+  - `map`, `find` , `forEach` 메서드 복습 또 복습!
+
+<br>
+
 ## 22. Follow Along Link Highlighter
 
 - 2021 02 26
