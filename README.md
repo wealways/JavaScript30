@@ -12,6 +12,19 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 24. Sticky Nav
+
+- 2021 02 28
+- 고정 Nav 만들기
+
+![](image/24.gif)
+
+- 배운점
+  - 고정 nav 만들기!
+  - 안보이던 로고 보이게 하기
+
+<br>
+
 ## 23. Speech Synthesis
 
 - 2021 02 27
