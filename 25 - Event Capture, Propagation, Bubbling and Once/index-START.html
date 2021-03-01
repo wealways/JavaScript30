@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Understanding JavaScript's Capture</title>
+</head>
+<body class="bod">
+
+  <div class="one">
+    <div class="two">
+      <div class="three">
+      </div>
+    </div>
+  </div>
+
+<style>
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after { 
+    box-sizing: inherit; 
+  }
+
+  div {
+    width: 100%;
+    padding: 100px;
+  }
+
+  .one {
+    background: thistle;
+  }
+
+  .two {
+    background: mistyrose;
+  }
+
+  .three {
+    background: coral;
+  }
+</style>
+
+<button></button>
+<script>
+  const divs = document.querySelectorAll('div');
+  const button = document.querySelector('button')
+
+  function logText(e) {
+    console.log(this.classList.value)
+    e.stopPropagation(); //  버블링 막겠다!!
+  }
+
+  divs.forEach(div=> div.addEventListener('click',logText,{
+    capture:false
+  }));
+
+  // 한번만 event 실행하기.
+  // divs.forEach(div=>div.addEventListener('click',logText,{
+  //   capture:false,
+  //   once:true
+  // }))
+
+  // 한번만 버튼 누를 수 있는 그런 기능에 이런 걸 사용해보세요! 예) 매장결제
+  button.addEventListener('click',()=>{
+    console.log('click!!!');
+  },{
+    once:true
+  })
+
+
+
+</script>
+</body>
+</html>
