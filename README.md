@@ -16,6 +16,23 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 26. Stripe Follow Along Nav
+
+- 2021 03 02
+- nav에서 dropdown 만들기!!
+
+![](image/26.gif)
+
+- 배운것
+
+  - `getBoundingClientRect` 복습 : 요소의 위치 크기 등을 알려주는 메서드
+  - 익명함수의 특징
+  - css : `opacity` 특징/ `hover`에 이벤트 주기 위해 해야할 것.
+
+  
+
+<br>
+
 ## 25. Event Capture, Propagation, Bubbling and Once
 
 - 2021 03 01
