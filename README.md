@@ -16,6 +16,20 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 27. Click and Drag
+
+- 2021 03 06
+- slider 만들기
+
+![27](image/27.gif)
+
+- 배운것
+  - slide 스크롤 만들기 CSS 
+    - `white-space:nowrap`, `overflow`, `user-select`
+  - slide 스크롤 만들기 JS
+
+<br>
+
 ## 26. Stripe Follow Along Nav
 
 - 2021 03 02
