@@ -16,6 +16,19 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 28. video Speed Controller
+
+- 2021 03 07
+- 비디오 속도 조절기능
+
+![](image/28.gif)
+
+- 배운점
+  - 속도조절기능만들기
+  - `toFixed()` : 고정소수점 표기법으로 만들기
+
+<br>
+
 ## 27. Click and Drag
 
 - 2021 03 06
