@@ -14,6 +14,18 @@ https://github.com/wesbos/JavaScript30
 
 <br>
 
+## 29. Countdown Timer
+
+- 2021 03 08
+- 카운트다운 타이머 만들기
+
+![](image/29.gif)
+
+- 배운것
+  - 타이머 만들기
+  - `clearInterval`, `parseInt`
+  - HTML의 form 접근법
+
 <br>
 
 ## 28. video Speed Controller

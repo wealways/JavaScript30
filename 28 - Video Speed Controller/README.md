@@ -3,7 +3,7 @@
 - 2021 03 07
 - 비디오 속도 조절기능
 
-![](C:\Users\multicampus\Desktop\SJ\JavaScript30\image\28.gif)
+![](../image/28.gif)
 
 ## 배운점
 
